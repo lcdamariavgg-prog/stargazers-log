@@ -1,31 +1,50 @@
+/* Style the entire page body. */
 body {
+  /* Use the operating system's default interface font. */
   font-family: system-ui, sans-serif;
+  /* Keep the content readable on wide screens. */
   max-width: 720px;
+  /* Center the content horizontally. */
   margin: 0 auto;
+  /* Add space around the page content. */
   padding: 2rem;
+  /* Use GitHub's primary text color. */
   color: #24292f;
 }
 
+/* Remove default list styling from the repository list. */
 .repository-list {
+  /* Hide the default bullet markers. */
   list-style: none;
+  /* Remove the browser's default left padding. */
   padding: 0;
 }
 
+/* Style each repository entry. */
 .repository {
+  /* Separate entries with a subtle bottom border. */
   border-bottom: 1px solid #d0d7de;
+  /* Add vertical spacing inside each entry. */
   padding: 1rem 0;
 }
 
+/* Style repository links. */
 .repository a {
+  /* Use GitHub's link blue. */
   color: #0969da;
+  /* Make repository names slightly larger than body text. */
   font-size: 1.1rem;
+  /* Emphasize repository names with a semibold weight. */
   font-weight: 600;
 }
 
+/* Add spacing around repository descriptions. */
 .repository p {
   margin: 0.5rem 0;
 }
 
+/* Style repository metadata such as language and star count. */
 .repository small {
+  /* Use a muted color for secondary information. */
   color: #57606a;
 }
