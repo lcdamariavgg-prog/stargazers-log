@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #24292f;
+}
+
+.repository-list {
+  list-style: none;
+  padding: 0;
+}
+
+.repository {
+  border-bottom: 1px solid #d0d7de;
+  padding: 1rem 0;
+}
+
+.repository a {
+  color: #0969da;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.repository p {
+  margin: 0.5rem 0;
+}
+
+.repository small {
+  color: #57606a;
+}
