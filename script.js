@@ -26,7 +26,7 @@ fetch("events.json")
       // Build the visible repository markup.
       item.innerHTML = `
         <!-- Link to the repository on GitHub. -->
-        <a href="${repository.url}" target="_blank" rel="noreferrer">
+        <a href="${repository.url}" target="_blank" rel="noreferrer" aria-label="${repository.name} (opens in new tab)">
           <!-- Display the repository owner and name. -->
           ${repository.name}
         </a>
